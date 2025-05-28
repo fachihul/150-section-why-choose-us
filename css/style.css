@@ -55,6 +55,7 @@ img {
 }
 .single-service-wrapper {
   max-width: 300px;
+  cursor: pointer;
   /* flex: 1; */
 }
 .box-wrapper {
@@ -66,7 +67,7 @@ img {
 
 .service-icon-tablecell i {
   color: #ff7875;
-  background-color: #fedb77;
+  background-color: rgba(254, 219, 119, 0.4);
   font-size: 30px;
   padding: 10px;
   border-radius: 50%;
@@ -75,6 +76,11 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.single-service-wrapper:hover .service-icon-tablecell i {
+  color: #fff;
+  background-color: #ff7875;
 }
 .single-service-wrapper a {
   display: block;
