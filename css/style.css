@@ -45,7 +45,12 @@ img {
   transform: translateX(-50%);
 }
 .single-service-icon {
-  text-align: left;
+  text-align: center;
+  min-height: 240px;
+}
+.single-service-icon h3 {
+  margin: 20px 0;
+  font-size: 24px;
 }
 .single-service-wrapper {
   max-width: 300px;
@@ -56,4 +61,22 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+}
+
+.service-icon-tablecell i {
+  color: #ff7875;
+  background-color: #fedb77;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-service-wrapper a {
+  display: block;
+  text-decoration: none;
+  color: #333;
 }
